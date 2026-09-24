@@ -1,0 +1,27 @@
+{
+  "algorithm": "Spark MLlib FP-Growth",
+  "parameters": {
+    "minSupport": 0.01,
+    "minConfidence": 0.2
+  },
+  "dataset": {
+    "num_transactions": 9970,
+    "num_unique_products": 29,
+    "raw_row_count": 41222,
+    "clean_row_count": 40413,
+    "duplicates_removed": 197
+  },
+  "results": {
+    "num_frequent_itemsets": 488,
+    "num_association_rules": 171,
+    "fpgrowth_fit_time_seconds": 2.475
+  },
+  "rule_quality": {
+    "avg_support": 0.0236,
+    "avg_confidence": 0.4045,
+    "avg_lift": 2.5743,
+    "max_lift": 6.0438,
+    "rules_with_lift_above_1": 165
+  },
+  "evaluation_notes": "Accuracy, precision, and recall are not applicable to this task because FP-Growth is unsupervised frequent pattern mining with no ground-truth labels. Instead, rules are evaluated on statistical significance (support, confidence, lift) and the algorithm's runtime/scalability characteristics."
+}

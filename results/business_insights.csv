@@ -1,0 +1,76 @@
+insight_type,detail,metric,value
+Frequent Combination,"Pasta, Pasta Sauce",support,0.0798
+Frequent Combination,"Bread, Butter",support,0.0731
+Frequent Combination,"Cereal, Milk",support,0.067
+Frequent Combination,"Chips, Soft Drink",support,0.0655
+Frequent Combination,"Sugar, Tea",support,0.0606
+Frequent Combination,"Coffee, Sugar",support,0.0599
+Frequent Combination,"Toothbrush, Toothpaste",support,0.0569
+Frequent Combination,"Bread, Eggs",support,0.0503
+Frequent Combination,"Bread, Milk",support,0.048
+Frequent Combination,"Shampoo, Soap",support,0.0467
+Frequent Combination,"Cooking Oil, Rice",support,0.0455
+Frequent Combination,"Cheese, Pasta",support,0.0442
+Frequent Combination,"Chocolate, Soft Drink",support,0.0442
+Frequent Combination,"Cookies, Tea",support,0.0437
+Frequent Combination,"Coffee, Milk",support,0.0426
+Strong Association,"Cheese, Pasta Sauce -> Pasta",lift,6.0438
+Strong Association,"Milk, Sugar -> Coffee",lift,5.006
+Strong Association,"Butter, Eggs -> Bread",lift,4.689
+Strong Association,"Bread, Cereal -> Milk",lift,4.629
+Strong Association,"Milk, Pasta Sauce -> Pasta",lift,4.0295
+Strong Association,"Chips, Pasta Sauce -> Pasta",lift,3.9412
+Strong Association,"Garbage Bags, Pasta -> Pasta Sauce",lift,3.9356
+Strong Association,"Garbage Bags, Pasta Sauce -> Pasta",lift,3.9085
+Strong Association,"Pasta, Soap -> Pasta Sauce",lift,3.7209
+Strong Association,"Cereal, Coffee -> Milk",lift,3.6907
+Strong Association,"Chips, Pasta -> Pasta Sauce",lift,3.6628
+Strong Association,"Butter, Milk -> Bread",lift,3.64
+Strong Association,"Pasta, Sugar -> Pasta Sauce",lift,3.6096
+Strong Association,"Pasta Sauce, Soft Drink -> Pasta",lift,3.5892
+Strong Association,Pasta -> Pasta Sauce,lift,3.5714
+Cross-Selling Opportunity,Pasta -> Pasta Sauce,confidence,0.6792
+Cross-Selling Opportunity,Pasta Sauce -> Pasta,confidence,0.4198
+Cross-Selling Opportunity,Toothpaste -> Toothbrush,confidence,0.4996
+Cross-Selling Opportunity,Toothbrush -> Toothpaste,confidence,0.3407
+Cross-Selling Opportunity,Bread -> Butter,confidence,0.4946
+Cross-Selling Opportunity,Butter -> Bread,confidence,0.4178
+Cross-Selling Opportunity,Chips -> Soft Drink,confidence,0.5511
+Cross-Selling Opportunity,Soft Drink -> Chips,confidence,0.3333
+Cross-Selling Opportunity,Milk -> Cereal,confidence,0.4514
+Cross-Selling Opportunity,Cereal -> Milk,confidence,0.3967
+Cross-Selling Opportunity,Rice -> Cooking Oil,confidence,0.4028
+Cross-Selling Opportunity,Cooking Oil -> Rice,confidence,0.3019
+Cross-Selling Opportunity,Coffee -> Sugar,confidence,0.5228
+Cross-Selling Opportunity,Pasta -> Cheese,confidence,0.3763
+Cross-Selling Opportunity,Coffee -> Milk,confidence,0.3722
+High Lift Pair,"Cheese, Pasta Sauce -> Pasta",lift,6.0438
+High Lift Pair,"Milk, Sugar -> Coffee",lift,5.006
+High Lift Pair,"Butter, Eggs -> Bread",lift,4.689
+High Lift Pair,"Bread, Cereal -> Milk",lift,4.629
+High Lift Pair,"Milk, Pasta Sauce -> Pasta",lift,4.0295
+High Lift Pair,"Chips, Pasta Sauce -> Pasta",lift,3.9412
+High Lift Pair,"Garbage Bags, Pasta -> Pasta Sauce",lift,3.9356
+High Lift Pair,"Garbage Bags, Pasta Sauce -> Pasta",lift,3.9085
+High Lift Pair,"Pasta, Soap -> Pasta Sauce",lift,3.7209
+High Lift Pair,"Cereal, Coffee -> Milk",lift,3.6907
+High Lift Pair,"Chips, Pasta -> Pasta Sauce",lift,3.6628
+High Lift Pair,"Butter, Milk -> Bread",lift,3.64
+High Lift Pair,"Pasta, Sugar -> Pasta Sauce",lift,3.6096
+High Lift Pair,"Pasta Sauce, Soft Drink -> Pasta",lift,3.5892
+High Lift Pair,Pasta -> Pasta Sauce,lift,3.5714
+Category-Level Relationship,"Grocery, Snacks -> Grocery",avg_lift,3.802
+Category-Level Relationship,"Grocery, Household -> Grocery",avg_lift,3.6802
+Category-Level Relationship,"Grocery, Personal Care -> Grocery",avg_lift,3.5402
+Category-Level Relationship,"Grocery, Personal Care -> Personal Care",avg_lift,3.3131
+Category-Level Relationship,"Dairy, Grocery -> Grocery",avg_lift,3.2349
+Category-Level Relationship,"Beverages, Personal Care -> Personal Care",avg_lift,3.1604
+Category-Level Relationship,"Dairy, Grocery -> Beverages",avg_lift,3.1547
+Category-Level Relationship,"Dairy, Personal Care -> Personal Care",avg_lift,3.0559
+Category-Level Relationship,"Grocery, Personal Care -> Dairy",avg_lift,2.8695
+Category-Level Relationship,"Beverages, Grocery -> Grocery",avg_lift,2.8593
+Category-Level Relationship,"Beverages, Dairy -> Snacks",avg_lift,2.8493
+Category-Level Relationship,"Beverages, Grocery -> Snacks",avg_lift,2.8391
+Category-Level Relationship,"Grocery, Snacks -> Beverages",avg_lift,2.793
+Category-Level Relationship,"Dairy, Household -> Grocery",avg_lift,2.7651
+Category-Level Relationship,"Beverages, Grocery -> Dairy",avg_lift,2.7647

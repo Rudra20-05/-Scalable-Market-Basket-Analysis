@@ -1,0 +1,21 @@
+======================================================================
+SCALABLE MARKET BASKET ANALYSIS — PIPELINE RUN
+======================================================================
+
+[1/6] Dataset already exists at /home/claude/scalable_market_basket_analysis/data/retail_transactions.csv — skipping generation.
+  (use --force_regenerate to rebuild it)
+
+[2/6] Initializing Spark session (local[*]) ...
+
+[3/6] Preprocessing data with Spark DataFrames ...
+
+[4/6] Running Spark MLlib FP-Growth ...
+
+[5/6] Generating business insights ...
+  Generated 75 insights -> /home/claude/scalable_market_basket_analysis/results/business_insights.csv
+
+[6/6] Writing evaluation summary ...
+  Saved evaluation summary -> /home/claude/scalable_market_basket_analysis/results/evaluation_summary.json
+
+Pipeline complete in 30.54 seconds.
+Run the dashboard with: streamlit run dashboard/app.py

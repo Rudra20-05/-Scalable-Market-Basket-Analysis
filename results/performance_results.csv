@@ -1,0 +1,5 @@
+dataset_size_transactions,raw_row_count,num_transactions_after_cleaning,num_unique_products,preprocessing_time_sec,fpgrowth_time_sec,total_time_sec,num_frequent_itemsets,num_association_rules,throughput_txn_per_sec
+10000,41434,9980,29,19.675,5.575,25.251,497,200,395.24
+50000,208087,49896,29,11.736,6.07,17.806,494,184,2802.21
+100000,416275,99814,29,12.752,8.227,20.979,494,183,4757.88
+500000,2076262,499022,29,47.583,28.494,76.076,493,175,6559.48

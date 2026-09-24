@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# Spark
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Data / results (keep the small default dataset, ignore generated large ones)
+data/perf_test_*.csv
+data/retail_transactions_*k.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archives
+*.tar.gz
+*.tgz
+*.zip
+
+# IDE
+.vscode/
+.idea/
